@@ -1,7 +1,6 @@
 
 <div align="center">
 <h1 align="center">Eyal Delarea</h1>
-  <h4 align="center">A Software Engineer at <a href="https://github.com/jfrog">@JFrog 🐸</a> 
 </div>
 
 <div align="center">
