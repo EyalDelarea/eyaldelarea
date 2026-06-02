@@ -32,7 +32,6 @@ type Developer struct {
     Name     string
     Role     string
     Location string
-    Stack    []string
     Loves    []string
 }
 
@@ -41,7 +40,6 @@ func NewEyal() Developer {
         Name:     "Eyal Delarea",
         Role:     "Software Developer",
         Location: "Israel 🇮🇱",
-        Stack:    []string{"Go", "TypeScript", "Docker"},
         Loves:    []string{"clean code", "good tooling", "synths 🎛️"},
     } // I build because I love it.
 }
