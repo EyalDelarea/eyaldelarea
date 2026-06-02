@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b1e"/><stop offset="1" stop-color="#1b0b30"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161a3a"/><stop offset="1" stop-color="#0e1230"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .cube { transform-box: fill-box; transform-origin: center; animation: bob ease-in-out infinite; }
+      @keyframes bob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+      .star { animation: tw 2.4s ease-in-out infinite; }
+      @keyframes tw { 0%,100%{opacity:.15} 50%{opacity:1} }
+      .title { animation: pulse 3.2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100%{opacity:.82} 50%{opacity:1} }
+      .step { opacity:.16; animation: seq 1.92s steps(1,end) infinite; }
+      @keyframes seq { 0%{opacity:1;fill:#a855f7} 6%{opacity:1;fill:#a855f7} 7%{opacity:.16} 100%{opacity:.16} }
+      .led { animation: blinkled 1.92s steps(1) infinite; }
+      @keyframes blinkled { 0%,12%{opacity:1} 13%,100%{opacity:.25} }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+    </style>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <g opacity="0.5">
+    <line x1="-180" y1="380" x2="80" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="-180" y1="270" x2="80" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="-90" y1="380" x2="170" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="-90" y1="270" x2="170" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="0" y1="380" x2="260" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="0" y1="270" x2="260" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="90" y1="380" x2="350" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="90" y1="270" x2="350" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="180" y1="380" x2="440" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="180" y1="270" x2="440" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="270" y1="380" x2="530" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="270" y1="270" x2="530" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="360" y1="380" x2="620" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="360" y1="270" x2="620" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="450" y1="380" x2="710" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="450" y1="270" x2="710" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="540" y1="380" x2="800" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="540" y1="270" x2="800" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="630" y1="380" x2="890" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="630" y1="270" x2="890" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="720" y1="380" x2="980" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="720" y1="270" x2="980" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="810" y1="380" x2="1070" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="810" y1="270" x2="1070" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="900" y1="380" x2="1160" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="900" y1="270" x2="1160" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="990" y1="380" x2="1250" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="990" y1="270" x2="1250" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="1080" y1="380" x2="1340" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="1080" y1="270" x2="1340" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="1170" y1="380" x2="1430" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="1170" y1="270" x2="1430" y2="380" stroke="#332a5a" stroke-width="1"/>
+    <line x1="1260" y1="380" x2="1520" y2="270" stroke="#332a5a" stroke-width="1"/>
+    <line x1="1260" y1="270" x2="1520" y2="380" stroke="#332a5a" stroke-width="1"/>
+  </g>
+  <circle class="star" cx="120" cy="60" r="2" fill="#a78bfa" style="animation-delay:0s"/>
+  <circle class="star" cx="240" cy="90" r="2" fill="#a78bfa" style="animation-delay:1.2s"/>
+  <circle class="star" cx="1040" cy="70" r="2" fill="#a78bfa" style="animation-delay:2.1s"/>
+  <circle class="star" cx="960" cy="120" r="2" fill="#a78bfa" style="animation-delay:0.6s"/>
+  <circle class="star" cx="1120" cy="60" r="2" fill="#a78bfa" style="animation-delay:1.7s"/>
+  <circle class="star" cx="1150" cy="150" r="2" fill="#a78bfa" style="animation-delay:2.6s"/>
+  <circle class="star" cx="80" cy="140" r="2" fill="#a78bfa" style="animation-delay:0.9s"/>
+  <circle class="star" cx="1080" cy="200" r="2" fill="#a78bfa" style="animation-delay:1.9s"/>
+  <circle class="star" cx="180" cy="210" r="2" fill="#a78bfa" style="animation-delay:1.3s"/>
+  <circle class="star" cx="1010" cy="250" r="2" fill="#a78bfa" style="animation-delay:2.3s"/>
+
+  <g class="cube" style="animation-delay:0.0s;animation-duration:3.4s">
+    <polygon points="110,150 140,165.0 140,195.0 110,180" fill="#0891b2"/>
+    <polygon points="140,165.0 170,150 170,180 140,195.0" fill="#0e7490"/>
+    <polygon points="140,135.0 170,150 140,165.0 110,150" fill="#5eead4"/>
+  </g>
+  <g class="cube" style="animation-delay:0.7s;animation-duration:3.0s">
+    <polygon points="188,118 210,129.0 210,151.0 188,140" fill="#0891b2"/>
+    <polygon points="210,129.0 232,118 232,140 210,151.0" fill="#0e7490"/>
+    <polygon points="210,107.0 232,118 210,129.0 188,118" fill="#5eead4"/>
+  </g>
+  <g class="cube" style="animation-delay:0.5s;animation-duration:3.6s">
+    <polygon points="1010,140 1040,155.0 1040,185.0 1010,170" fill="#0891b2"/>
+    <polygon points="1040,155.0 1070,140 1070,170 1040,185.0" fill="#0e7490"/>
+    <polygon points="1040,125.0 1070,140 1040,155.0 1010,140" fill="#5eead4"/>
+  </g>
+  <g class="cube" style="animation-delay:1.2s;animation-duration:2.9s">
+    <polygon points="1088,180 1110,191.0 1110,213.0 1088,202" fill="#0891b2"/>
+    <polygon points="1110,191.0 1132,180 1132,202 1110,213.0" fill="#0e7490"/>
+    <polygon points="1110,169.0 1132,180 1110,191.0 1088,180" fill="#5eead4"/>
+  </g>
+  <g class="cube" style="animation-delay:1.6s;animation-duration:3.2s">
+    <polygon points="962,200 980,209.0 980,227.0 962,218" fill="#0891b2"/>
+    <polygon points="980,209.0 998,200 998,218 980,227.0" fill="#0e7490"/>
+    <polygon points="980,191.0 998,200 980,209.0 962,200" fill="#5eead4"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <text class="title" x="600" y="74" text-anchor="middle" font-size="50" font-weight="800" fill="#e0f2fe">Eyal Delarea</text>
+  </g>
+  <text x="600" y="112" text-anchor="middle" font-size="19" font-weight="600" fill="#22d3ee" font-family="'Courier New',monospace">&gt; software developer<tspan class="cursor" fill="#a855f7">_</tspan></text>
+
+  <g transform="translate(280,142)">
+    <defs><clipPath id="lcd"><rect x="210" y="96" width="158" height="42" rx="4"/></clipPath></defs>
+    <rect x="0" y="0" width="640" height="226" rx="12" fill="url(#panel)" stroke="#22d3ee" stroke-width="2.4"/>
+    <rect x="7" y="7" width="626" height="212" rx="9" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.22"/>
+    <line x1="10" y1="86" x2="630" y2="86" stroke="#22d3ee" stroke-width="1" opacity="0.18"/>
+    <line x1="10" y1="150" x2="630" y2="150" stroke="#22d3ee" stroke-width="1" opacity="0.18"/>
+    <text x="16" y="34" font-family="Georgia,serif" font-style="italic" font-size="22" font-weight="700" fill="#22d3ee">Roland</text>
+    <text x="16" y="50" font-family="'Courier New',monospace" font-size="7" fill="#a855f7" letter-spacing="1.5" opacity="0.8">WAVEFORM</text>
+    <text x="624" y="34" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="20" font-weight="700" fill="#e0f2fe">Bass Line</text>
+    <text x="148" y="20" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#22d3ee" opacity="0.85" letter-spacing="0.5">TUNING</text>
+    <g><circle cx="148" cy="50" r="15" fill="#161a3a" stroke="#22d3ee" stroke-width="2"/>
+      <g>
+      <line x1="148" y1="50" x2="148" y2="38" stroke="#a855f7" stroke-width="2.4" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" dur="4.0s"
+        values="-140 148 50;140 148 50;-140 148 50" repeatCount="indefinite"/>
+    </g>
+      <circle cx="148" cy="50" r="1.8" fill="#22d3ee"/></g>
+    <text x="216" y="20" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#22d3ee" opacity="0.85" letter-spacing="0.5">CUT OFF</text>
+    <g><circle cx="216" cy="50" r="15" fill="#161a3a" stroke="#22d3ee" stroke-width="2"/>
+      <g>
+      <line x1="216" y1="50" x2="216" y2="38" stroke="#a855f7" stroke-width="2.4" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" dur="4.9s"
+        values="-140 216 50;140 216 50;-140 216 50" repeatCount="indefinite"/>
+    </g>
+      <circle cx="216" cy="50" r="1.8" fill="#22d3ee"/></g>
+    <text x="284" y="20" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#22d3ee" opacity="0.85" letter-spacing="0.5">RESO</text>
+    <g><circle cx="284" cy="50" r="15" fill="#161a3a" stroke="#22d3ee" stroke-width="2"/>
+      <g>
+      <line x1="284" y1="50" x2="284" y2="38" stroke="#a855f7" stroke-width="2.4" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" dur="5.8s"
+        values="-140 284 50;140 284 50;-140 284 50" repeatCount="indefinite"/>
+    </g>
+      <circle cx="284" cy="50" r="1.8" fill="#22d3ee"/></g>
+    <text x="352" y="20" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#22d3ee" opacity="0.85" letter-spacing="0.5">ENV MOD</text>
+    <g><circle cx="352" cy="50" r="15" fill="#161a3a" stroke="#22d3ee" stroke-width="2"/>
+      <g>
+      <line x1="352" y1="50" x2="352" y2="38" stroke="#a855f7" stroke-width="2.4" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" dur="6.7s"
+        values="-140 352 50;140 352 50;-140 352 50" repeatCount="indefinite"/>
+    </g>
+      <circle cx="352" cy="50" r="1.8" fill="#22d3ee"/></g>
+    <text x="420" y="20" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#22d3ee" opacity="0.85" letter-spacing="0.5">DECAY</text>
+    <g><circle cx="420" cy="50" r="15" fill="#161a3a" stroke="#22d3ee" stroke-width="2"/>
+      <g>
+      <line x1="420" y1="50" x2="420" y2="38" stroke="#a855f7" stroke-width="2.4" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" dur="7.6s"
+        values="-140 420 50;140 420 50;-140 420 50" repeatCount="indefinite"/>
+    </g>
+      <circle cx="420" cy="50" r="1.8" fill="#22d3ee"/></g>
+    <text x="488" y="20" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#22d3ee" opacity="0.85" letter-spacing="0.5">ACCENT</text>
+    <g><circle cx="488" cy="50" r="15" fill="#161a3a" stroke="#22d3ee" stroke-width="2"/>
+      <g>
+      <line x1="488" y1="50" x2="488" y2="38" stroke="#a855f7" stroke-width="2.4" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" dur="8.5s"
+        values="-140 488 50;140 488 50;-140 488 50" repeatCount="indefinite"/>
+    </g>
+      <circle cx="488" cy="50" r="1.8" fill="#22d3ee"/></g>
+    <g><circle cx="40" cy="116" r="12" fill="#161a3a" stroke="#22d3ee" stroke-width="2"/>
+      <g>
+      <line x1="40" y1="116" x2="40" y2="107" stroke="#a855f7" stroke-width="2.4" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" dur="5.0s"
+        values="-140 40 116;140 40 116;-140 40 116" repeatCount="indefinite"/>
+    </g>
+      <circle cx="40" cy="116" r="1.8" fill="#22d3ee"/>
+      <text x="40" y="140" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#22d3ee" opacity="0.85" letter-spacing="0.5">SHUFFLE</text></g>
+    <g><circle cx="98" cy="116" r="12" fill="#161a3a" stroke="#22d3ee" stroke-width="2"/>
+      <g>
+      <line x1="98" y1="116" x2="98" y2="107" stroke="#a855f7" stroke-width="2.4" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" dur="5.7s"
+        values="-140 98 116;140 98 116;-140 98 116" repeatCount="indefinite"/>
+    </g>
+      <circle cx="98" cy="116" r="1.8" fill="#22d3ee"/>
+      <text x="98" y="140" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#22d3ee" opacity="0.85" letter-spacing="0.5">SCALE</text></g>
+    <g><circle cx="156" cy="116" r="12" fill="#161a3a" stroke="#22d3ee" stroke-width="2"/>
+      <g>
+      <line x1="156" y1="116" x2="156" y2="107" stroke="#a855f7" stroke-width="2.4" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" dur="6.4s"
+        values="-140 156 116;140 156 116;-140 156 116" repeatCount="indefinite"/>
+    </g>
+      <circle cx="156" cy="116" r="1.8" fill="#22d3ee"/>
+      <text x="156" y="140" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#22d3ee" opacity="0.85" letter-spacing="0.5">TEMPO</text></g>
+    <rect x="210" y="96" width="158" height="42" rx="4" fill="#04060f" stroke="#22d3ee" stroke-width="1.6"/>
+    <text x="218" y="109" font-family="'Courier New',monospace" font-size="8" fill="#a855f7" letter-spacing="1">PATTERN 001 · ACID</text>
+    <g clip-path="url(#lcd)">
+      <g><polyline points="0,126.0 3,121.9 6,118.7 9,117.1 12,117.4 15,119.6 18,123.2 21,127.4 24,131.3 27,134.0 30,135.0 33,134.0 36,131.3 39,127.4 42,123.2 45,119.6 48,117.4 51,117.1 54,118.7 57,121.9 60,126.0 63,130.1 66,133.3 69,134.9 72,134.6 75,132.4 78,128.8 81,124.6 84,120.7 87,118.0 90,117.0 93,118.0 96,120.7 99,124.6 102,128.8 105,132.4 108,134.6 111,134.9 114,133.3 117,130.1 120,126.0 123,121.9 126,118.7 129,117.1 132,117.4 135,119.6 138,123.2 141,127.4 144,131.3 147,134.0 150,135.0 153,134.0 156,131.3 159,127.4 162,123.2 165,119.6 168,117.4 171,117.1 174,118.7 177,121.9 180,126.0 183,130.1 186,133.3 189,134.9 192,134.6 195,132.4 198,128.8 201,124.6 204,120.7 207,118.0 210,117.0 213,118.0 216,120.7 219,124.6 222,128.8 225,132.4 228,134.6 231,134.9 234,133.3 237,130.1 240,126.0 243,121.9 246,118.7 249,117.1 252,117.4 255,119.6 258,123.2 261,127.4 264,131.3 267,134.0 270,135.0 273,134.0 276,131.3 279,127.4 282,123.2 285,119.6 288,117.4 291,117.1 294,118.7 297,121.9 300,126.0 303,130.1 306,133.3 309,134.9 312,134.6 315,132.4 318,128.8 321,124.6" fill="none" stroke="#22d3ee" stroke-width="1.8" transform="translate(210,0)"/>
+      <animateTransform attributeName="transform" type="translate" dur="1.5s" values="0 0;-40 0" repeatCount="indefinite"/></g>
+    </g>
+    <text x="392" y="108" font-family="'Courier New',monospace" font-size="15" font-weight="700" fill="#a855f7">TB-303</text>
+    <text x="392" y="122" font-family="'Courier New',monospace" font-size="7.5" fill="#22d3ee" opacity="0.8" letter-spacing="1">COMPUTER CONTROLLED</text>
+    <g><circle cx="600" cy="116" r="20" fill="#161a3a" stroke="#22d3ee" stroke-width="2"/>
+      <g>
+      <line x1="600" y1="116" x2="600" y2="99" stroke="#a855f7" stroke-width="2.4" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" dur="7s"
+        values="-140 600 116;140 600 116;-140 600 116" repeatCount="indefinite"/>
+    </g>
+      <circle cx="600" cy="116" r="1.8" fill="#22d3ee"/>
+      <text x="600" y="148" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#22d3ee" opacity="0.85" letter-spacing="0.5">VOLUME</text></g>
+    <rect class="step" x="28.0" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:0.00s"/>
+    <rect class="step" x="64.5" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:0.12s"/>
+    <rect class="step" x="101.0" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:0.24s"/>
+    <rect class="step" x="137.5" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:0.36s"/>
+    <rect class="step" x="174.0" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:0.48s"/>
+    <rect class="step" x="210.5" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:0.60s"/>
+    <rect class="step" x="247.0" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:0.72s"/>
+    <rect class="step" x="283.5" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:0.84s"/>
+    <rect class="step" x="320.0" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:0.96s"/>
+    <rect class="step" x="356.5" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:1.08s"/>
+    <rect class="step" x="393.0" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:1.20s"/>
+    <rect class="step" x="429.5" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:1.32s"/>
+    <rect class="step" x="466.0" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:1.44s"/>
+    <rect class="step" x="502.5" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:1.56s"/>
+    <rect class="step" x="539.0" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:1.68s"/>
+    <rect class="step" x="575.5" y="158" width="33.5" height="9" rx="2" fill="#22d3ee" stroke="#22d3ee" stroke-width="0.6" style="animation-delay:1.80s"/>
+    <rect x="24.0" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="66.3" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="108.6" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="150.9" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="193.1" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="235.4" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="277.7" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="320.0" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="362.3" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="404.6" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="446.9" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="489.1" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="531.4" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="573.7" y="196" width="40.8" height="24" rx="2" fill="#0a0d22" stroke="#22d3ee" stroke-width="1.3"/>
+    <rect x="53.6" y="196" width="25.4" height="15" rx="1.5" fill="#22d3ee" fill-opacity="0.55" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="95.9" y="196" width="25.4" height="15" rx="1.5" fill="#22d3ee" fill-opacity="0.55" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="180.5" y="196" width="25.4" height="15" rx="1.5" fill="#22d3ee" fill-opacity="0.55" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="222.7" y="196" width="25.4" height="15" rx="1.5" fill="#22d3ee" fill-opacity="0.55" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="265.0" y="196" width="25.4" height="15" rx="1.5" fill="#22d3ee" fill-opacity="0.55" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="349.6" y="196" width="25.4" height="15" rx="1.5" fill="#22d3ee" fill-opacity="0.55" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="391.9" y="196" width="25.4" height="15" rx="1.5" fill="#22d3ee" fill-opacity="0.55" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="476.5" y="196" width="25.4" height="15" rx="1.5" fill="#22d3ee" fill-opacity="0.55" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="518.7" y="196" width="25.4" height="15" rx="1.5" fill="#22d3ee" fill-opacity="0.55" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="561.0" y="196" width="25.4" height="15" rx="1.5" fill="#22d3ee" fill-opacity="0.55" stroke="#22d3ee" stroke-width="1"/>
+    <circle class="led" cx="29" cy="187" r="4" fill="#a855f7"/>
+    <text x="38" y="190" font-family="'Courier New',monospace" font-size="7" fill="#22d3ee" opacity="0.8" letter-spacing="1">RUN/STOP</text>
+    <text x="616" y="190" text-anchor="end" font-family="'Courier New',monospace" font-size="7" fill="#a855f7" opacity="0.8" letter-spacing="1">ACCENT · SLIDE</text>
+  </g>
+</svg>
