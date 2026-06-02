@@ -21,17 +21,38 @@
 
 ## 👋 About me
 
-```ts
-const eyal = {
-  role:      "Software Developer",
-  location:  "Israel 🇮🇱",
-  focus:     ["backend", "developer tooling", "open source"],
-  loves:     ["clean code", "good tooling", "synthesizers 🎛️"],
-  mindset:   "I build because I love it.",
-};
+<table>
+<tr>
+<td valign="middle">
+
+```go
+package main
+
+type Developer struct {
+    Name     string
+    Role     string
+    Location string
+    Stack    []string
+    Loves    []string
+}
+
+func NewEyal() Developer {
+    return Developer{
+        Name:     "Eyal Delarea",
+        Role:     "Software Developer",
+        Location: "Israel 🇮🇱",
+        Stack:    []string{"Go", "TypeScript", "Docker"},
+        Loves:    []string{"clean code", "good tooling", "synths 🎛️"},
+    } // I build because I love it.
+}
 ```
 
-I'm a software developer who genuinely enjoys the craft — designing clean systems, sharpening the tools I work with, and shipping things that feel alive. Off the clock I'm usually deep in a side project or twisting knobs on a synth.
+</td>
+<td valign="middle" align="center">
+  <img src="./about-3d.svg" alt="" width="220" />
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -86,12 +107,11 @@ I'm a software developer who genuinely enjoys the craft — designing clean syst
 
 <br/>
 
-## 🌆 Contribution skyline
+## 🐍 Contribution snake
 
-<!-- Auto-generated daily by .github/workflows/profile-3d.yml (github-profile-3d-contrib). -->
-<!-- Appears after the workflow's first run — trigger it once manually from the Actions tab. -->
+<!-- Auto-generated daily by the profile-graphics workflow (Platane/snk), themed neon. -->
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution skyline" width="100%" />
+  <img src="./dist/snake.svg" alt="Contribution snake animation" width="100%" />
 </div>
 
 <br/>
@@ -118,8 +138,9 @@ I'm a software developer who genuinely enjoys the craft — designing clean syst
 ## 🔗 Connect
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/EyalDelarea">LinkedIn</a> ·
-  <a href="mailto:eyaldelarea@gmail.com">Email</a>
+  <a href="https://www.linkedin.com/in/EyalDelarea"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:eyaldelarea@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/EyalDelarea"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </div>
 
-<div align="center"><sub>🎛️ Hero synth hand-built in SVG · skyline auto-updates daily</sub></div>
+<div align="center"><sub>🎛️ Hero synth hand-built in SVG · snake & stats auto-update daily</sub></div>
