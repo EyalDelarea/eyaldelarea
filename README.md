@@ -98,13 +98,19 @@ I'm a software developer who genuinely enjoys the craft — designing clean syst
 
 ## 📊 Stats
 
+<!-- Generated as committed SVGs by the profile-graphics workflow (always render, no flaky service). -->
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=eyaldelarea&show_icons=true&hide_border=true&bg_color=0b0b1e&title_color=22d3ee&icon_color=a855f7&text_color=c9d1d9" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eyaldelarea&layout=compact&hide_border=true&bg_color=0b0b1e&title_color=22d3ee&text_color=c9d1d9" alt="Top languages" />
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=eyaldelarea&hide_border=true&background=0b0b1e&ring=22d3ee&fire=a855f7&currStreakLabel=22d3ee&sideLabels=c9d1d9&dates=8b949e&stroke=332a5a" alt="Streak" />
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most-used languages" />
+</div>
+
+<div align="center">
+  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time" />
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" />
 </div>
 
 <br/>
