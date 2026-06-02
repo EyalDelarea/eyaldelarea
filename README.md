@@ -56,49 +56,6 @@ func NewEyal() Developer {
 
 <br/>
 
-## 🚀 Featured projects
-
-<!-- ┌─────────────────────────────────────────────────────────────┐ -->
-<!-- │ TO ADD A REAL PROJECT: replace a placeholder cell below with │ -->
-<!-- │ a repo pin card, e.g.                                        │ -->
-<!-- │ <a href="https://github.com/eyaldelarea/REPO">              │ -->
-<!-- │   <img src="https://github-readme-stats.vercel.app/api/pin/?username=eyaldelarea&repo=REPO&theme=tokyonight&hide_border=true&bg_color=0b0b1e&title_color=22d3ee&icon_color=a855f7" /> -->
-<!-- │ </a>                                                         │ -->
-<!-- └─────────────────────────────────────────────────────────────┘ -->
-
-<table align="center">
-  <tr>
-    <td align="center" width="50%">
-      <h3>🚧 Project One</h3>
-      <p><i>One line on what it does.</i></p>
-      <p><code>Go</code> · <code>Docker</code></p>
-      <a href="#">→ repo</a>
-    </td>
-    <td align="center" width="50%">
-      <h3>🚧 Project Two</h3>
-      <p><i>One line on what it does.</i></p>
-      <p><code>TypeScript</code> · <code>React</code></p>
-      <a href="#">→ repo</a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <h3>🚧 Project Three</h3>
-      <p><i>One line on what it does.</i></p>
-      <p><code>Python</code></p>
-      <a href="#">→ repo</a>
-    </td>
-    <td align="center" width="50%">
-      <h3>🚧 Project Four</h3>
-      <p><i>One line on what it does.</i></p>
-      <p><code>Java</code></p>
-      <a href="#">→ repo</a>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
 ## 🛠️ Tech stack
 
 <div align="center">
@@ -116,25 +73,6 @@ func NewEyal() Developer {
 
 <br/>
 
-## 📊 Stats
-
-<!-- Generated as committed SVGs by the profile-graphics workflow (always render, no flaky service). -->
-<div align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" width="100%" />
-</div>
-
-<div align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most-used languages" />
-</div>
-
-<div align="center">
-  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time" />
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" />
-</div>
-
-<br/>
-
 ## 🔗 Connect
 
 <div align="center">
@@ -143,4 +81,4 @@ func NewEyal() Developer {
   <a href="https://github.com/EyalDelarea"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </div>
 
-<div align="center"><sub>🎛️ Hero synth hand-built in SVG · snake & stats auto-update daily</sub></div>
+<div align="center"><sub>🎛️ Hero synth hand-built in SVG · snake auto-updates daily</sub></div>

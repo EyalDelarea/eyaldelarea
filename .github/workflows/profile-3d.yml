@@ -23,18 +23,10 @@ jobs:
           outputs: |
             dist/snake.svg?color_snake=#22d3ee&color_dots=#0b0b1e,#0e7490,#0891b2,#22d3ee,#a855f7
 
-      - name: Generate profile summary cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          AUTO_PUSH: "false"
-
       - name: Commit & push generated graphics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A dist profile-summary-card-output
-          git diff --staged --quiet || git commit -m "chore: refresh profile graphics"
+          git add -A dist
+          git diff --staged --quiet || git commit -m "chore: refresh contribution snake"
           git push
